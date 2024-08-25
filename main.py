@@ -1,7 +1,7 @@
 import cv2
 import serial
 
-# Connect to Arduino
+# Connect to Arduino 1
 arduino = serial.Serial('COM11', 9600)  # Adjust the port accordingly
 
 # Load the pre-trained face detector
